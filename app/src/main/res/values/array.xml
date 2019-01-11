@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="progress_color">
+        <item>@color/light_blue</item>
+        <item>@color/red</item>
+        <item>@color/green</item>
+        <item>@color/purple</item>
+        <item>@color/orange</item>
+    </array>
+    <array name="indicator_label">
+        <item>select category</item>
+        <item>select sub category</item>
+        <item>about product</item>
+    </array>
+</resources>

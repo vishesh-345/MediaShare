@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#5966f1</color>
+    <color name="colorGreen">#5966f1</color>
+    <color name="colorBlue">#5b27ea</color>
+    <color name="scanner_background">#5966f1</color>
+
+
+
+    <color name="red">#F44336</color>
+    <color name="dark_red">#e1392d</color>
+
+    <color name="pink">#EA296F</color>
+    <color name="dark_pink">#E91E63</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="amber">#ff8707</color>
+    <color name="dark_orange">#FF5722</color>
+
+
+    <color name="lime">#CDDC39</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="green">#4CAF50</color>
+    <color name="dark_green">#419744</color>
+
+
+    <color name="indigo">#556de2</color>
+    <color name="dark_indigo">#4a61cf</color>
+
+
+
+    <color name="light_blue">#2196F3</color>
+    <color name="blue">#1668D0</color>
+    <color name="dark_blue">#145DBB</color>
+
+    <color name="purple">#7546c9</color>
+    <color name="dark_purple">#673AB7</color>
+    <color name="cyan">#00BCD4</color>
+
+    <color name="light_transparent">#88888888</color>
+    <color name="light_gray">#DDDDDD</color>
+    <color name="gray">#888888</color>
+    <color name="dark_gray">#555555</color>
+
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="transparent">@android:color/transparent</color>
+
+</resources>

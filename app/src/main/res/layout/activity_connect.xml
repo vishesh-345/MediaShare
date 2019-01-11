@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/scanner_background"
+    tools:context="admin.encryption.SenderActivity">
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.gigamole.library.PulseView
+            android:id="@+id/pulsar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/scanner_background"
+            app:pv_icon_width="75dp"
+            app:pv_icon_height="75dp"
+            app:pv_spawn_period="500"
+            app:pv_interpolator="@android:anim/linear_interpolator"
+            app:pv_color="#FFFFFF"
+            app:pv_icon="@drawable/progress_background"
+            app:pv_alpha="128"
+            app:pv_count="5"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_bluetooth_center"/>
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="START TO SEND"/>
+</LinearLayout>
